@@ -37,7 +37,16 @@ J'ai converti le dossier original CVS en dossier Excel ; je n'ai opéré aucune 
 
 ## Données
 - **TESTI_NEI_CANZONIERI_PROVENZALI.xlsx** : fichier original contenant toutes les données sans modifications, avec les informations suivantes par colonne :
-  - **repertorio_n** : **numéro de répertoire** des textes selon la classification Pillet-Casterns (000,000)
+  - **repertorio_n** : **numéro de répertoire** des textes selon la classification Pillet-Casterns (000,000).
+  - **repertorio** : répertoire dans lequel est consigné la référence (ici la BEdT).
+  - **BdT** : sigle attribué au texte dans le répertoire de la BEdT.
+  - **integrazioni_al_corpus** : intégration au corpus.
+  - **BdT_sec** : sigle secondaire.
+  - **Frank** : sigle dans la classification de Frank.
+  - **BdT aut** : sigle des auteurs.
+  - **tipo_di_testo** : type de texte.
+  - **incipit** : premier vers de chaque texte.
+  - **note** : notes additionnelles.
 
 ## Figures
 **2025_05_15_DCP_BEdT_textes_chansonniers_histogramme.png** : histogramme effectué à partir des données du tableau dynamique.
@@ -45,8 +54,9 @@ J'ai converti le dossier original CVS en dossier Excel ; je n'ai opéré aucune 
 ## Resultats
 - **2025_05_15_DCP_BEdT_textes_chansonniers_frequences.xlsx** : continent les données sous forme de tableau dynamique, avec les genres poétiques en première colonne, et à côté de leur nombre d'occurrences par genre pour l'ensemble du corpus.
 
-# Licence
+- **Interprétation** : la _canzone_ (chanson d'amour) avec 945 occurrences, la _cobla_ (strophe) avec 350 occurrences, et le _sirventese_ (composition satyrique) avec 418 occurrence, cumulent le plus de résultats, ce qui n'est pas étonnant du point de vue de la tradition, mais ce sont des données qui devront être revisitées en fonction de la classification adoptée par les auteurs.
 
+# Licence
 This work is licensed under a
 [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
 
